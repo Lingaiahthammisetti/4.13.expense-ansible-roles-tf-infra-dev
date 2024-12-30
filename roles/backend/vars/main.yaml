@@ -7,3 +7,5 @@ login_password: ExpenseApp1 #important: RDS will not accept '@' in password.
 DB_HOST: db-dev.lingaiah.online
 
 #mysql_root_password: ExpenseApp1
+
+#We are not using db role in expense-infra-dev project.
