@@ -2,8 +2,8 @@ app_location: /app
 component: backend
 
 login_user: root
-login_host: db.lingaiah.online
+login_host: db-dev.lingaiah.online
 login_password: ExpenseApp1 #important: RDS will not accept '@' in password.
-DB_HOST: db.lingaiah.online
+DB_HOST: db-dev.lingaiah.online
 
 #mysql_root_password: ExpenseApp1
