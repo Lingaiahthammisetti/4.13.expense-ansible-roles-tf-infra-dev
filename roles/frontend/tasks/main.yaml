@@ -3,6 +3,12 @@
       name: nginx
       state: latest
 
+  - name: start and enable nginx
+    ansible.builtin.service:
+      name: nginx
+      state: started
+      enabled: yes
+
   - name: run app pre-requisites
     ansible.builtin.import_role:
       name: common
@@ -16,7 +22,7 @@
     notify:
     - restart nginx
 
-  - name: restart nginx
-    ansible.builtin.service:
-      name: nginx
-      state: restarted
+  # - name: restart nginx
+  #   ansible.builtin.service:
+  #     name: nginx
+  #     state: restarted
