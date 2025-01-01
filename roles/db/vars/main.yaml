@@ -1,5 +1,4 @@
 #login_host: db-dev.lingaiah.online
-
 # login_user: root
 # mysql_root_password: ExpenseApp1 #important: RDS will not accept '@' in password.
 # DB_HOST: db-dev.lingaiah.online

@@ -1,5 +1,2 @@
 component: frontend
 app_location: /usr/share/nginx/html
-
-
-#BACKEND_API_URL: backend.app-dev.lingaiah.online:8080
